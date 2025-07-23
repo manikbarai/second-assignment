@@ -3,6 +3,151 @@
   padding: 0;
   box-sizing: border-box;
 }
+
 .container {
-  max-width: 1140px;
+  max-width: 1500px;
+  margin: auto;
+}
+
+/* noto sherif */
+
+.noto-serif-normal {
+  font-family: "Noto Serif", serif;
+  font-optical-sizing: auto;
+  font-variation-settings:
+    "wdth" 100;
+}
+
+/*  */
+
+.inter-normal {
+  font-family: "Inter", sans-serif;
+}
+
+/* header styles */
+.heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  margin: 0 auto;
+  padding: 30px 150px 120px 150px;
+}
+
+nav ul {
+  display: flex;
+}
+
+nav ul li {
+  list-style: none;
+  padding-right: 48px;
+}
+
+nav ul li a {
+  text-decoration: none;
+}
+
+.nav-item01 {
+  font-weight: 700;
+  color: rgba(37, 36, 50, 1);
+}
+
+.nav-item02 {
+  color: rgba(137, 135, 161, 1);
+}
+
+.nav-item03 {
+  color: rgba(0, 0, 0, 1);
+}
+
+/* fresh flower */
+
+.fresh-flower {
+  display: flex;
+  justify-content: center;
+  margin: 0 auto;
+  height: 500px;
+  padding: 0px 140px 120px 140px;
+}
+
+.flower-title {
+  padding-top: 162px;
+}
+
+.flower-sub-title {
+  font-size: 4.1rem;
+  font-weight: 700;
+  color: black;
+  padding-bottom: 12px;
+}
+
+.color-Change {
+  color: rgba(233, 90, 8, 1);
+}
+
+.flower-description {
+  font-size: 1.375rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.flower-image {
+  padding-top: 95px;
+}
+
+/* plants styles */
+
+.plants-title {
+  /* display: flex; */
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+}
+
+.plants-sub-title {
+  font-weight: 700;
+  font-size: 3.125rem;
+  padding-top: 90px;
+  padding-bottom: 15px;
+}
+
+.plants-description {
+  font-size: 1.375rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* card styles */
+.plant-card {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 20px;
+  width: 1140px;
+  margin: 49px auto;
+}
+
+.plants-cards {
+  text-align: center;
+}
+
+.card-title {
+  font-size: 1.375rem;
+  font-weight: 500;
+  color: rgba(17, 17, 17, 1);
+  padding-top: 20px;
+}
+
+.bold {
+  padding-top: 10px;
+  font-size: 1.375rem;
+  font-weight: 700;
+}
+
+.btn-primary {
+  font-weight: 600;
+  color: rgba(255, 255, 255, 1);
+  background-color: rgba(233, 90, 8, 1);
+  padding: 19px 80px;
+  width: 270px;
+  border: none;
+  margin-top: 20px;
 }
