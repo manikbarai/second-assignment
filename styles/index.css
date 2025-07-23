@@ -151,3 +151,195 @@ nav ul li a {
   border: none;
   margin-top: 20px;
 }
+
+/* plants lover */
+.plants-lover {
+  display: flex;
+  justify-content: center;
+  margin: 200px auto;
+  width: 1140px;
+  gap: 80px;
+}
+
+.plant-lover-title {
+  font-size: 3.125rem;
+  font-weight: 700;
+  color: black;
+  padding-top: 25px;
+}
+
+.plant-lover-bio {
+  font-size: 1.375rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  padding-top: 20px;
+}
+
+/* deals styles */
+.deals {
+  justify-content: center;
+  text-align: center;
+  margin: 0 auto;
+}
+
+
+.deals-head {
+  font-size: 3.125rem;
+  font-weight: 700;
+  color: black;
+  padding-bottom: 16px;
+}
+
+.deals-description {
+  font-size: 1.375rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+}
+
+/* plant images styles */
+.plantsss {
+  display: flex;
+  justify-content: center;
+  margin: 189px auto;
+  margin-bottom: 50px;
+}
+
+
+.plant-image001 {
+  /* background-image: url('../assets/deal-bloom.png'); */
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../assets/deal-bloom.png');
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  width: 365px;
+  height: 206px;
+  border-radius: 14px;
+  margin-bottom: 20px;
+}
+
+.plant-image002 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../assets/deal-ana.png');
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  width: 365px;
+  height: 206px;
+  border-radius: 14px;
+}
+
+.plant-image-bios {
+  display: grid;
+  place-items: center;
+  padding: 65px 47px;
+}
+
+.plant-image-sub-title {
+  font-size: 1.25rem;
+  font-weight: 700;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.plant-image-description {
+  font-weight: 600;
+  color: white;
+}
+
+.plant-image003 {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../assets/deal-zabo.png');
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  border-radius: 14px;
+  width: 753px;
+  height: 430px;
+  margin-left: 25px;
+}
+
+
+.plant-image-bios1 {
+  display: grid;
+  place-items: center;
+  padding: 172px 127px;
+}
+
+.plant-image-sub-title1 {
+  font-size: 2.5rem;
+  font-weight: 700;
+  color: white;
+  padding-bottom: 20px;
+}
+
+.plant-image-description1 {
+  font-size: 1.75rem;
+  font-weight: 600;
+  color: white;
+}
+
+/* Bunch styles */
+.bunch-title {
+  font-size: 3.125rem;
+  font-weight: 700;
+  color: white;
+}
+
+.btn-secondary {
+  background-color: rgba(233, 90, 8, 1);
+  font-weight: 600;
+  padding: 19px 30px;
+  color: white;
+  width: 186px;
+  height: 50px;
+}
+
+.bunch {
+  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+    url('../assets/news-letter-bg.png');
+  background-size: cover;
+  background-blend-mode: multiply;
+  background-repeat: no-repeat;
+  width: 1440px;
+  height: 530px;
+}
+
+.bunch-head {
+  display: grid;
+  place-items: center;
+  padding: 195px 300px;
+}
+
+.flex {
+  display: flex;
+  margin-top: 25px;
+}
+
+.emails {
+  width: 644px;
+  height: 50px;
+  padding: 15px 540px 15px 20px;
+
+}
+
+/* footer styles */
+.footer-description {
+  font-size: 1.375rem;
+  font-weight: 400;
+  color: rgba(0, 0, 0, 0.5);
+  padding-top: 16px;
+}
+
+.nav001 {
+  display: flex;
+}
+
+.footer-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 50px auto;
+  width: 1440px;
+  height: 350px;
+}
