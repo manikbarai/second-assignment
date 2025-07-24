@@ -402,3 +402,20 @@ nav ul li a {
   height: 300px;
   margin-bottom: 50px;
 }
+
+/* medium device */
+@media screen and (max-width: 576px) {
+
+  .nav-item01,
+  .nav-item02 {
+    visibility: hidden;
+  }
+
+  .heading {
+    flex-direction: row;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin: 0 auto;
+  }
+}
