@@ -30,7 +30,7 @@
   align-items: center;
   justify-content: space-between;
   margin: 0 auto;
-  padding: 30px 150px 120px 150px;
+  padding: 30px 150px 120px 170px;
 }
 
 nav ul {
@@ -175,6 +175,19 @@ nav ul li a {
   padding-top: 20px;
 }
 
+.trusted {
+  position: relative;
+}
+
+.trusted-badge {
+  width: 286px;
+  height: 286px;
+  margin-top: 100px;
+  position: absolute;
+  top: -225px;
+  left: -265px;
+}
+
 /* deals styles */
 .deals {
   justify-content: center;
@@ -207,7 +220,7 @@ nav ul li a {
 
 .plant-image001 {
   /* background-image: url('../assets/deal-bloom.png'); */
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.5)),
     url('../assets/deal-bloom.png');
   background-size: cover;
   background-blend-mode: multiply;
@@ -219,7 +232,7 @@ nav ul li a {
 }
 
 .plant-image002 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.5)),
     url('../assets/deal-ana.png');
   background-size: cover;
   background-blend-mode: multiply;
@@ -248,7 +261,7 @@ nav ul li a {
 }
 
 .plant-image003 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(0, 0, 0, 0.5)),
     url('../assets/deal-zabo.png');
   background-size: cover;
   background-blend-mode: multiply;
@@ -293,10 +306,11 @@ nav ul li a {
   color: white;
   width: 186px;
   height: 50px;
+  border: none;
 }
 
 .bunch {
-  background: linear-gradient(rgba(0, 0, 0, 0.5), rgba(0, 0, 0, 0.5)),
+  background: linear-gradient(rgba(7, 51, 79, 0.4)),
     url('../assets/news-letter-bg.png');
   background-size: cover;
   background-blend-mode: multiply;
@@ -324,6 +338,10 @@ nav ul li a {
 }
 
 /* footer styles */
+
+.last-logos img {
+  margin-top: 50px;
+}
 
 .footer-description {
   font-size: 1.375rem;
@@ -372,13 +390,15 @@ nav ul li a {
   width: 216px;
   height: 36px;
   gap: 24px;
+  margin-top: 50px;
 }
 
 .footer-section {
   display: flex;
   justify-content: space-between;
-  align-items: center;
+  /* align-items: center; */
   margin: 50px auto;
   width: 1120px;
-  height: 250px;
+  height: 300px;
+  margin-bottom: 50px;
 }
