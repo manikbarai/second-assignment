@@ -4,418 +4,426 @@
   box-sizing: border-box;
 }
 
-.container {
-  max-width: 1500px;
-  margin: auto;
-}
-
 /* noto sherif */
 
 .noto-serif-normal {
   font-family: "Noto Serif", serif;
   font-optical-sizing: auto;
-  font-variation-settings:
-    "wdth" 100;
+  font-variation-settings: "wdth" 100;
 }
-
-/*  */
+/* inter font */
 
 .inter-normal {
   font-family: "Inter", sans-serif;
 }
 
-/* header styles */
-.heading {
+/* nav-styles */
+.nav-image {
   display: flex;
-  align-items: center;
   justify-content: space-between;
-  margin: 0 auto;
-  padding: 30px 150px 120px 170px;
+  align-items: center;
+  margin: 20px auto;
+  max-width: 1140px;
 }
 
-nav ul {
+.nav-ul-list ul {
   display: flex;
+  justify-content: space-around;
+  align-items: center;
+  text-align: center;
+  gap: 48px;
 }
 
-nav ul li {
+.nav-ul-list li {
   list-style: none;
-  padding-right: 48px;
 }
 
-nav ul li a {
+.nav-ul-list li a {
   text-decoration: none;
 }
 
 .nav-item01 {
+  color: rgb(37, 36, 50);
   font-weight: 700;
-  color: rgba(37, 36, 50, 1);
 }
 
 .nav-item02 {
-  color: rgba(137, 135, 161, 1);
+  color: rgb(137, 135, 161);
 }
 
 .nav-item03 {
-  color: rgba(0, 0, 0, 1);
+  color: rgb(0, 0, 0);
+  font-weight: 400;
 }
 
 /* fresh flower */
-
 .fresh-flower {
   display: flex;
-  justify-content: center;
-  margin: 0 auto;
-  height: 500px;
-  padding: 0px 140px 120px 140px;
+  justify-content: space-between;
+  max-width: 1140px;
+  margin: 0px auto;
 }
 
 .flower-title {
-  padding-top: 162px;
+  padding-top: 180px;
 }
 
 .flower-sub-title {
-  font-size: 4.1rem;
+  color: rgb(0, 0, 0);
+  font-size: 4rem;
   font-weight: 700;
-  color: black;
-  padding-bottom: 12px;
+  padding-top: 35px;
 }
 
 .color-Change {
-  color: rgba(233, 90, 8, 1);
+  color: rgb(233, 90, 8);
 }
 
 .flower-description {
-  font-size: 1.375rem;
-  font-weight: 400;
   color: rgba(0, 0, 0, 0.5);
+  font-size: 1.1rem;
+  padding-top: 5px;
 }
 
 .flower-image {
-  padding-top: 95px;
+  padding-top: 120px;
 }
 
-/* plants styles */
+.flower-image img {
+  width: 100%;
+}
 
-.plants-title {
-  /* display: flex; */
-  justify-content: center;
-  align-items: center;
+/* our plant styles */
+
+.plant-heads {
+  max-width: 1140px;
+  margin: 0px auto;
+  margin-top: 120px;
   text-align: center;
 }
 
 .plants-sub-title {
+  font-size: 3.1rem;
   font-weight: 700;
-  font-size: 3.125rem;
-  padding-top: 90px;
-  padding-bottom: 15px;
+  line-height: 68px;
 }
 
 .plants-description {
-  font-size: 1.375rem;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.5);
+  max-width: 680px;
+  margin: 0px auto;
+  margin-bottom: 40px;
 }
 
-/* card styles */
+/* plants card styles*/
 .plant-card {
   display: grid;
   grid-template-columns: repeat(4, 1fr);
   gap: 20px;
-  width: 1140px;
-  margin: 49px auto;
 }
 
 .plants-cards {
-  text-align: center;
+  max-width: 270px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  background-color: rgb(255, 255, 255);
+  margin-top: 20px;
+  gap: 2px;
+  width: 100%;
+}
+
+.plants-cards img {
+  width: 100%;
+  height: auto;
 }
 
 .card-title {
-  font-size: 1.375rem;
+  font-size: 1.1rem;
   font-weight: 500;
-  color: rgba(17, 17, 17, 1);
-  padding-top: 20px;
+  color: rgb(17, 17, 17);
+  margin-top: 15px;
+  margin-bottom: 10px;
 }
 
 .bold {
-  padding-top: 10px;
-  font-size: 1.375rem;
+  font-size: 1.1rem;
   font-weight: 700;
+  color: rgb(17, 17, 17);
+  margin-bottom: 15px;
 }
 
 .btn-primary {
+  font-size: 1.1rem;
   font-weight: 600;
-  color: rgba(255, 255, 255, 1);
-  background-color: rgba(233, 90, 8, 1);
-  padding: 19px 80px;
-  width: 270px;
   border: none;
-  margin-top: 20px;
+  background: rgb(233, 90, 8);
+  color: white;
+  padding: 19px 50px;
 }
 
-/* plants lover */
+/* flower and plants lover */
+
 .plants-lover {
+  max-width: 1140px;
   display: flex;
-  justify-content: center;
-  margin: 200px auto;
-  width: 1140px;
-  gap: 80px;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0px auto;
+  margin-top: 210px;
+  gap: 65px;
 }
 
-.plant-lover-title {
-  font-size: 3.125rem;
-  font-weight: 700;
-  color: black;
-  padding-top: 25px;
+.flower-store {
+  position: relative;
+  max-width: 540px;
 }
 
-.plant-lover-bio {
-  font-size: 1.375rem;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.5);
-  padding-top: 20px;
+.image-du {
+  position: static;
+  width: 100%;
+}
+
+/* spin */
+@keyframes spin {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+.trusted-badge {
+  position: absolute;
+  width: 60%;
+  right: -20%;
+  bottom: 70%;
+  animation: spin 15s linear infinite;
 }
 
 .trusted {
-  position: relative;
+  max-width: 540px;
 }
 
-.trusted-badge {
-  width: 286px;
-  height: 286px;
-  margin-top: 100px;
-  position: absolute;
-  top: -225px;
-  left: -265px;
+.plant-lover-title {
+  font-size: 3rem;
+  font-weight: 700;
+}
+
+.trusted ul li {
+  margin: 20px auto;
+  font-size: 1.375rem;
+  line-height: 27px;
+  color: rgba(0, 0, 0, 0.5);
 }
 
 /* deals styles */
-.deals {
-  justify-content: center;
-  text-align: center;
-  margin: 0 auto;
+
+.deals-header {
+  margin-top: 133px;
 }
 
+.deals {
+  max-width: 1440px;
+  text-align: center;
+  margin: 0 auto;
+  margin-bottom: 120px;
+}
 
-.deals-head {
+.deals-title {
   font-size: 3.125rem;
   font-weight: 700;
-  color: black;
-  padding-bottom: 16px;
 }
 
 .deals-description {
   font-size: 1.375rem;
-  font-weight: 400;
   color: rgba(0, 0, 0, 0.5);
 }
 
-/* plant images styles */
+/* percentage styles */
+
 .plantsss {
-  display: flex;
-  justify-content: center;
-  margin: 189px auto;
-  margin-bottom: 50px;
-}
-
-
-.plant-image001 {
-  /* background-image: url('../assets/deal-bloom.png'); */
-  background: linear-gradient(rgba(0, 0, 0, 0.5)),
-    url('../assets/deal-bloom.png');
-  background-size: cover;
-  background-blend-mode: multiply;
-  background-repeat: no-repeat;
-  width: 365px;
-  height: 206px;
-  border-radius: 14px;
-  margin-bottom: 20px;
-}
-
-.plant-image002 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5)),
-    url('../assets/deal-ana.png');
-  background-size: cover;
-  background-blend-mode: multiply;
-  background-repeat: no-repeat;
-  width: 365px;
-  height: 206px;
-  border-radius: 14px;
-}
-
-.plant-image-bios {
   display: grid;
-  place-items: center;
-  padding: 65px 47px;
+  grid-template-columns: repeat(3, 1fr);
+  justify-content: center;
+  align-items: center;
+  max-width: 1140px;
+  margin: 0 auto;
+  gap: 3px;
+  margin-bottom: 120px;
+}
+
+.plant-image001,
+.plant-image002,
+.plant-image003 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3px;
+  color: white;
 }
 
 .plant-image-sub-title {
-  font-size: 1.25rem;
+  font-size: 1.2rem;
   font-weight: 700;
-  color: white;
-  padding-bottom: 20px;
 }
-
-.plant-image-description {
-  font-weight: 600;
-  color: white;
-}
-
-.plant-image003 {
-  background: linear-gradient(rgba(0, 0, 0, 0.5)),
-    url('../assets/deal-zabo.png');
-  background-size: cover;
-  background-blend-mode: multiply;
-  background-repeat: no-repeat;
-  border-radius: 14px;
-  width: 753px;
-  height: 430px;
-  margin-left: 25px;
-}
-
-
-.plant-image-bios1 {
-  display: grid;
-  place-items: center;
-  padding: 172px 127px;
-}
-
 .plant-image-sub-title1 {
   font-size: 2.5rem;
   font-weight: 700;
-  color: white;
-  padding-bottom: 20px;
 }
 
 .plant-image-description1 {
   font-size: 1.75rem;
   font-weight: 600;
-  color: white;
 }
 
-/* Bunch styles */
-.bunch-title {
-  font-size: 3.125rem;
-  font-weight: 700;
-  color: white;
-}
-
-.btn-secondary {
-  background-color: rgba(233, 90, 8, 1);
+.plant-image-description {
+  font-size: 1rem;
   font-weight: 600;
-  padding: 19px 30px;
+}
+
+.latest-deals-image-2 h2 {
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.plant-image001 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)),
+    url("../assets/deal-bloom.png");
+  background-repeat: no-repeat;
+  max-width: 366px;
+  height: 200px;
+  border-radius: 10px;
+  width: 100%;
+}
+.plant-image003 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)),
+    url("../assets/deal-zabo.png");
+  background-repeat: no-repeat;
+  max-width: 750px;
+  height: 410px;
+  border-radius: 20px;
+  width: 100%;
+  grid-row: 1 / span 2;
+  grid-column: 2 / span 2;
+}
+.plant-image002 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)),
+    url("../assets/deal-ana.png");
+  background-repeat: no-repeat;
+  max-width: 366px;
+  height: 198px;
+  border-radius: 10px;
+  width: 100%;
+}
+
+/* joint and colorful  styles */
+.bunch {
+  background-image: linear-gradient(rgba(70, 72, 73, 0.4)),
+    url("../assets/news-letter-bg.png");
+  background-repeat: no-repeat;
+  max-width: 1440px;
+  height: 530px;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
   color: white;
-  width: 186px;
-  height: 50px;
+  gap: 23px;
+}
+
+.bunch-title {
+  font-size: 3.1rem;
+  font-weight: 700;
+}
+
+.bunch-header {
+  display: flex;
+  justify-content: center;
+  gap: 0px;
+}
+
+.email {
+  color: rgba(0, 0, 0, 0.5);
+  line-height: 19px;
+  padding-left: 20px;
+  width: 644px;
+  max-height: 50px;
   border: none;
 }
 
-.bunch {
-  background: linear-gradient(rgba(7, 51, 79, 0.4)),
-    url('../assets/news-letter-bg.png');
-  background-size: cover;
-  background-blend-mode: multiply;
-  background-repeat: no-repeat;
-  width: 1440px;
-  height: 530px;
-}
-
-.bunch-head {
-  display: grid;
-  place-items: center;
-  padding: 195px 300px;
-}
-
-.flex {
-  display: flex;
-  margin-top: 25px;
-}
-
-.emails {
-  width: 644px;
+.btn-secondary {
+  color: rgb(255, 255, 255);
+  width: 186px;
   height: 50px;
-  padding: 15px 540px 15px 20px;
-
+  font-weight: 600;
+  line-height: 19px;
+  letter-spacing: 0%;
+  background-color: rgb(233, 90, 8);
+  border: none;
 }
 
-/* footer styles */
-
-.last-logos img {
-  margin-top: 50px;
-}
-
-.footer-description {
-  font-size: 1.375rem;
-  font-weight: 400;
-  color: rgba(0, 0, 0, 0.5);
-  padding-top: 16px;
-}
-
-.nav001 {
-  width: 85px;
-  height: 248px;
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  gap: 32px;
-  padding: 0px;
-  margin-top: 50px;
-}
-
-.nav001 a {
-  text-decoration: none;
-  color: rgba(107, 114, 128, 1);
-}
-
-.nav002 {
-
-  display: flex;
-  flex-direction: column;
-  justify-content: center;
-  width: 128px;
-  height: 248px;
-  gap: 32px;
-  padding: 0px;
-  margin-top: 50px;
-}
-
-.nav002 a {
-  text-decoration: none;
-  color: rgba(107, 114, 128, 1);
-}
-
-.social-media {
-  display: flex;
-  flex-direction: row;
-  justify-content: center;
-  width: 216px;
-  height: 36px;
-  gap: 24px;
-  margin-top: 50px;
-}
+/* footer last styles */
 
 .footer-section {
   display: flex;
   justify-content: space-between;
-  /* align-items: center; */
-  margin: 50px auto;
-  width: 1120px;
-  height: 300px;
-  margin-bottom: 50px;
+  margin: 0px auto;
+  max-width: 1140px;
+  max-height: 250px;
+  position: relative;
+  margin-top: 50px;
+  margin-bottom: 70px;
 }
 
-/* medium device */
-@media screen and (max-width: 576px) {
+.last-logos {
+  margin-top: 30px;
+}
 
-  .nav-item01,
-  .nav-item02 {
-    visibility: hidden;
-  }
+.footer-description {
+  padding-top: 10px;
+  color: rgba(0, 0, 0, 0.5);
+  font-size: 1.375rem;
+}
+/* nav shared */
+.top {
+  margin-top: 35px;
+}
+.nav001 ul,
+.nav002 ul {
+  display: flex;
+  flex-direction: column;
+  list-style: none;
+  gap: 32px;
+}
 
-  .heading {
-    flex-direction: row;
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    margin: 0 auto;
-  }
+.nav001 ul a,
+.nav002 ul a {
+  color: rgba(107, 114, 128, 1);
+  text-decoration: none;
+}
+
+.social-media {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  place-items: center;
+  gap: 25px;
+  margin-bottom: 210px;
+}
+
+/* hover effect */
+.btn-simple {
+  padding: 10px 20px;
+  background-color: rgba(233, 90, 8, 1);
+  color: white;
+  border: none;
+  transition: background-color 0.3s, color 0.3s;
+  cursor: pointer;
+}
+.btn-simple:hover {
+  background-color: skyblue;
+  transition: 0.5s;
+  cursor: pointer;
 }
