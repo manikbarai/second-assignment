@@ -437,6 +437,28 @@ a:hover {
   cursor: pointer;
 }
 
+/* deals percentage hover and underline solution */
+.custom-underline {
+  text-decoration: none;
+  position: relative;
+}
+
+.custom-underline::after {
+  content: "";
+  position: absolute;
+  left: 0;
+  bottom: -2px;
+  width: 100%;
+  height: 2px;
+  background: currentColor;
+}
+
+.custom-underline:hover {
+  background-color: rgb(65, 110, 139);
+  transition: background 0.3s;
+  cursor: pointer;
+}
+
 /* responsive for movie device */
 
 @media screen and (max-width: 576px) {
