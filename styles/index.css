@@ -198,7 +198,7 @@
   width: 60%;
   right: -20%;
   bottom: 70%;
-  animation: spin 15s linear infinite;
+  animation: spin 20s linear infinite;
 }
 
 .trusted {
@@ -414,17 +414,23 @@
 }
 
 /* hover effect */
-.btn-simple {
-  padding: 10px 20px;
-  background-color: rgba(233, 90, 8, 1);
-  color: white;
-  border: none;
+/* .btn-simple:hover {
+  background-color: yellowgreen;
   transition: background-color 0.3s, color 0.3s;
   cursor: pointer;
-}
-.btn-simple:hover {
-  background-color: skyblue;
+} */
+
+.btn-simple {
+  background: rgba(233, 90, 8, 1);
+  color: white;
+  border: none;
   cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-simple:hover {
+  background: #2980b9;
+  transform: scale(1.05);
 }
 
 /* responsive for movie device */
