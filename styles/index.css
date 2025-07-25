@@ -424,6 +424,10 @@
 }
 .btn-simple:hover {
   background-color: skyblue;
-  transition: 0.5s;
   cursor: pointer;
+}
+
+/* responsive for movie device */
+
+@media screen and (max-width: 576px) {
 }
