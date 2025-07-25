@@ -430,4 +430,144 @@
 /* responsive for movie device */
 
 @media screen and (max-width: 576px) {
+  .nav-item01,
+  .nav-item02 {
+    display: none;
+  }
+  /* fresh flower */
+  .fresh-flower {
+    flex-direction: column-reverse;
+  }
+  .flower-title {
+    padding-top: 28px;
+  }
+  .flower-sub-title {
+    font-size: 1.5rem;
+  }
+  .flower-image {
+    padding-top: 28px;
+  }
+  /* our plants */
+  .plant-heads {
+    text-align: center;
+    margin-top: 65px;
+  }
+  .plants-sub-title {
+    font-size: 1.5rem;
+    font-weight: 700;
+    line-height: 33px;
+  }
+  .plants-description {
+    max-width: 336px;
+  }
+  /* plants card section */
+  .plant-card {
+    grid-template-columns: repeat(2, 1fr);
+  }
+  .card-title {
+    margin-top: 10px;
+    margin-bottom: 5px;
+    font-size: ;
+  }
+  .bold {
+    margin-bottom: 10px;
+  }
+  .btn-primary {
+    padding: 19px 30px;
+  }
+
+  /* flower and plants lover */
+  .plants-lover {
+    flex-direction: column;
+    margin-top: 40px;
+    gap: 15px;
+  }
+  .trusted-badge {
+    display: none;
+  }
+  .Dn-Needed {
+    display: none;
+  }
+  .trusted {
+    max-width: 393px;
+  }
+  .plant-lover-title {
+    font-size: 1.5rem;
+  }
+
+  .trusted ul {
+    margin-left: 30px;
+  }
+
+  ..trusted ul li {
+    line-height: 22px;
+    margin: 11px auto;
+  }
+
+  /* Deals */
+  .deals-header {
+    margin-top: 100px;
+  }
+  .deals {
+    margin: 0 auto;
+    text-align: center;
+    margin-bottom: 50px;
+  }
+  .deals-title {
+    font-size: 1.5rem;
+  }
+  .deals-description {
+    max-width: 336px;
+    text-align: center;
+    margin-left: 15px;
+  }
+
+  /* percentage figure */
+  .plantsss {
+    grid-template-columns: repeat(1, 1fr);
+    margin-bottom: 51.5px;
+    place-items: center;
+  }
+  .plant-image002 {
+    max-width: 366px;
+    height: 202px;
+    border-radius: 10px;
+    grid-row: auto;
+    grid-column: auto;
+    order: 3;
+  }
+
+  /* joint and colorful section */
+  .bunch {
+    height: 275px;
+    gap: 10px;
+  }
+  .bunch-title {
+    font-size: 1.25rem;
+  }
+  .email {
+    padding-left: 30px;
+    width: 218px;
+    max-height: 40px;
+    margin-right: 0px;
+    margin-left: 36px;
+  }
+  .btn-secondary {
+    width: 103px;
+    height: 40px;
+    margin-left: 0px;
+  }
+
+  /* footer logo and title styles */
+  .footer-section {
+    flex-direction: column;
+    max-height: 865px;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    gap: 20px;
+  }
+  .social-media {
+    max-width: 216px;
+    gap: 24px;
+  }
 }
