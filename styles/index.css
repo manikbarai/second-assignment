@@ -434,6 +434,13 @@
   .nav-item02 {
     display: none;
   }
+  .nav-ul-list ul {
+    gap: 0px;
+  }
+  #ff {
+    margin: 5px;
+    padding: 5px;
+  }
   /* fresh flower */
   .fresh-flower {
     flex-direction: column-reverse;
@@ -444,6 +451,11 @@
   .flower-sub-title {
     font-size: 1.5rem;
   }
+
+  .flower-description {
+    width: 360px;
+  }
+
   .flower-image {
     padding-top: 28px;
   }
@@ -512,6 +524,7 @@
     margin: 0 auto;
     text-align: center;
     margin-bottom: 50px;
+    margin-top: 140px;
   }
   .deals-title {
     font-size: 1.5rem;
@@ -525,16 +538,25 @@
   /* percentage figure */
   .plantsss {
     grid-template-columns: repeat(1, 1fr);
-    margin-bottom: 51.5px;
+    margin-bottom: 50px;
     place-items: center;
+    gap: 20px;
   }
-  .plant-image002 {
+  .plant-image003 {
     max-width: 366px;
     height: 202px;
     border-radius: 10px;
     grid-row: auto;
     grid-column: auto;
     order: 3;
+  }
+
+  .plant-image-sub-title1 {
+    font-size: 1.25rem;
+  }
+
+  .plant-image-description1 {
+    font-size: 1rem;
   }
 
   /* joint and colorful section */
@@ -556,6 +578,7 @@
     width: 103px;
     height: 40px;
     margin-left: 0px;
+    margin-right: 36px;
   }
 
   /* footer logo and title styles */
@@ -569,5 +592,6 @@
   .social-media {
     max-width: 216px;
     gap: 24px;
+    padding-bottom: 50px;
   }
 }
