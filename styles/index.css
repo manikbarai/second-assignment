@@ -543,6 +543,7 @@ a:hover {
     max-width: 336px;
     text-align: center;
     margin-left: 15px;
+    margin: 16px auto;
   }
 
   /* percentage figure */
