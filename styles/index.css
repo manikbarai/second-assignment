@@ -253,6 +253,11 @@
   margin-bottom: 120px;
 }
 
+.plant-image-sub-title {
+  font-size: 1.2rem;
+  font-weight: 700;
+}
+
 .plant-image001,
 .plant-image002,
 .plant-image003 {
@@ -264,10 +269,6 @@
   color: white;
 }
 
-.plant-image-sub-title {
-  font-size: 1.2rem;
-  font-weight: 700;
-}
 .plant-image-sub-title1 {
   font-size: 2.5rem;
   font-weight: 700;
@@ -297,6 +298,17 @@
   border-radius: 10px;
   width: 100%;
 }
+
+.plant-image002 {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.4)),
+    url("../assets/deal-ana.png");
+  background-repeat: no-repeat;
+  max-width: 366px;
+  height: 198px;
+  border-radius: 10px;
+  width: 100%;
+}
+
 .plant-image003 {
   background-image: linear-gradient(rgba(0, 0, 0, 0.4)),
     url("../assets/deal-zabo.png");
@@ -307,15 +319,6 @@
   width: 100%;
   grid-row: 1 / span 2;
   grid-column: 2 / span 2;
-}
-.plant-image002 {
-  background-image: linear-gradient(rgba(0, 0, 0, 0.4)),
-    url("../assets/deal-ana.png");
-  background-repeat: no-repeat;
-  max-width: 366px;
-  height: 198px;
-  border-radius: 10px;
-  width: 100%;
 }
 
 /* joint and colorful  styles */
@@ -413,13 +416,7 @@
   margin-bottom: 210px;
 }
 
-/* hover effect */
-/* .btn-simple:hover {
-  background-color: yellowgreen;
-  transition: background-color 0.3s, color 0.3s;
-  cursor: pointer;
-} */
-
+/* button hover effect */
 .btn-simple {
   background: rgba(233, 90, 8, 1);
   color: white;
@@ -431,6 +428,13 @@
 .btn-simple:hover {
   background: #2980b9;
   transform: scale(1.05);
+}
+
+/* a hover effects */
+a:hover {
+  background: #2980b9;
+  transition: background 0.3s;
+  cursor: pointer;
 }
 
 /* responsive for movie device */
